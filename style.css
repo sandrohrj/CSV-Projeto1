@@ -1,0 +1,106 @@
+/*CSS INDEX*/
+
+.cabecalho {
+    background: salmon;
+    padding: 15px;
+}
+
+.titulo-cabecalho {
+    text-align: center;
+    font-size: 35px;
+}
+
+.lista-topo {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: right;
+}
+
+.lista-item-topo {
+    display: inline-block;
+    background-color: whitesmoke;
+    text-align: right;
+    height: 50px;
+}
+
+.principal {
+    background: white;
+    padding: 15px;
+}
+
+.nossos-gatos {
+    padding: 15px;
+    text-align: center;
+}
+
+.nossos-gatos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.nossos-gatos h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.nossos-gatos p {
+    padding: 15px;
+    text-align: justify;
+}
+.divnome {
+    padding: 15px;
+}
+
+.nome-gato {
+    vertical-align: bottom;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.foto-gato {
+    width: 120px;
+    margin: 0 20px 20px 0;
+    float: left;
+    border: 2px solid goldenrod;
+}
+
+.div-gato {
+    clear: left;
+}
+
+.saiba-mais {
+    clear: left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.rodape {
+    background: pink;
+    font-size: 35px;
+    text-align: center;
+}
+
+.cats-footer {
+    width: 150px;
+}
+
+.frase-footer {
+    padding: 5px;
+}
+
+.frase-footer::before {
+    content: "😸";
+}
+
+.frase-footer:after {
+    content: "😸";
+}
+
+/*CSS FOTOS*/
+
+
+/*CSS CONTATO*/
