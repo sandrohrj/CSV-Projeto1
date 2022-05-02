@@ -11,7 +11,7 @@
 }
 
 .lista-topo {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 10px;
     padding: 15px;
     text-align: right;
@@ -19,13 +19,26 @@
 
 .lista-item-topo {
     display: inline-block;
-    background-color: whitesmoke;
     text-align: right;
     height: 50px;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    transition: 1s;
+    font-size: 1.2em;
+}
+
 .principal {
-    background: white;
+    background: linear-gradient(salmon, white, pink);
     padding: 15px;
 }
 
@@ -55,7 +68,8 @@
 }
 
 .nome-gato {
-    vertical-align: bottom;
+    text-decoration: underline;
+    vertical-align: top;
     font-size: 1.2em;
     font-weight: bold;
     padding: 3px;
