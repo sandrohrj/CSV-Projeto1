@@ -1,13 +1,14 @@
 /*CSS INDEX*/
 
 .cabecalho {
-    background: salmon;
+    background: white;
     padding: 15px;
 }
 
 .titulo-cabecalho {
     text-align: center;
     font-size: 35px;
+
 }
 
 .lista-topo {
@@ -38,7 +39,7 @@ a:hover {
 }
 
 .principal {
-    background: linear-gradient(salmon, white, pink);
+    background: linear-gradient(white 40%, pink);
     padding: 15px;
 }
 
@@ -118,3 +119,27 @@ a:hover {
 
 
 /*CSS CONTATO*/
+
+form {
+    margin: 40px 0;
+}
+
+.input-superior {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    width: 30%;
+}
+
+.enviar:hover {
+    transition: 1s;
+    font-size: 1.2em;
+    font-weight: bold;
+}
