@@ -1,7 +1,9 @@
 /*CSS INDEX*/
-
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .cabecalho {
-    background: white;
+    background: linear-gradient(#dff0d8 10%, #75dd66);
     padding: 15px;
 }
 
@@ -39,7 +41,8 @@ a:hover {
 }
 
 .principal {
-    background: linear-gradient(white 40%, pink);
+    /*background: linear-gradient(white 40%, pink);*/
+    background: linear-gradient(#75dd66, #59cb59, #2bb656, #0ca750);
     padding: 15px;
 }
 
@@ -63,6 +66,9 @@ a:hover {
 .nossos-gatos p {
     padding: 15px;
     text-align: justify;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.5;
 }
 .divnome {
     padding: 15px;
@@ -87,6 +93,10 @@ a:hover {
     clear: left;
 }
 
+.div-gato p {
+    line-height: 1.2;
+}
+
 .saiba-mais {
     clear: left;
     text-align: center;
@@ -94,9 +104,10 @@ a:hover {
     font-weight: bold;
 }
 .rodape {
-    background: pink;
+    background: linear-gradient(#0ca750, #2bb656, #59cb59);
     font-size: 35px;
     text-align: center;
+    padding: 30px;
 }
 
 .cats-footer {
@@ -117,7 +128,93 @@ a:hover {
 
 /*CSS FOTOS*/
 
+.titulo-album {
+    font-size: 30px;
+    text-align: center;
+    color: yellowgreen;
+    margin: 20px 0;
+    font-weight: bold;
+}
 
+.titulo-album:hover {
+    font-size: 3em;
+    transition: 2s;
+    color: darkgoldenrod;
+}
+
+.lbox {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.lbox:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: auto;
+    background: rgba(10,10,10,.7);
+    position: fixed;
+}
+
+.icone-min {
+    width: 880px;
+    list-style: none;
+    display: flex;
+    margin: 100px auto;
+}
+
+.min {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    display: block;
+}
+
+.box_img {
+    width: 1000px;
+    margin: 100px 35%;
+}
+
+.lbox :target .box_img {
+    opacity: 1;
+    transition: opacity .4s linear;
+}
+
+.photo-width {
+    max-width: 500px;
+    max-height: 1000px;
+}
+
+.btn {
+    bottom: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#prev {
+    left: 5%;
+    top: 45%;
+    color: white;
+}
+
+#next {
+    right: 5%;
+    top: 45%;
+    color: white;
+}
+
+#close {
+    top: 0;
+    right: 2%;
+    color: red;
+}
 /*CSS CONTATO*/
 
 form {
