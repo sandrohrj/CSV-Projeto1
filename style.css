@@ -4,6 +4,7 @@ html {
 }
 .cabecalho {
     /*background: linear-gradient(#84A9FF, #6690FF);*/
+    background-color: #0C447A;
     padding: 15px;
 }
 
@@ -107,16 +108,18 @@ a:hover {
 }
 
 .rodape {
-    background-color:#058ED8;
+    background-color:#0C447A;
     font-size: 35px;
     text-align: center;
     padding: 30px;
 }
+
 .cats-footer {
     width: 150px;
 }
 .frase-footer {
     padding: 5px;
+    color: darkgoldenrod;
 }
 .frase-footer::before {
     content: "😸";
