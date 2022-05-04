@@ -3,13 +3,14 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 .cabecalho {
-    background: linear-gradient(#dff0d8 10%, #75dd66);
+    /*background: linear-gradient(#84A9FF, #6690FF);*/
     padding: 15px;
 }
 
 .titulo-cabecalho {
     text-align: center;
     font-size: 35px;
+    color: darkgoldenrod;
 
 }
 
@@ -35,14 +36,14 @@ a:visited {
 }
 
 a:hover {
-    color: white;
+    color: darkgoldenrod;
     transition: 1s;
     font-size: 1.2em;
 }
 
 .principal {
     /*background: linear-gradient(white 40%, pink);*/
-    background: linear-gradient(#75dd66, #59cb59, #2bb656, #0ca750);
+    /*background: linear-gradient( #6690FF, #3366FF, #254EDB, #1939B7);*/
     padding: 15px;
 }
 
@@ -80,6 +81,7 @@ a:hover {
     font-size: 1.2em;
     font-weight: bold;
     padding: 3px;
+    color: darkgoldenrod;
 }
 
 .foto-gato {
@@ -94,7 +96,7 @@ a:hover {
 }
 
 .div-gato p {
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 .saiba-mais {
@@ -103,28 +105,26 @@ a:hover {
     font-size: 20px;
     font-weight: bold;
 }
+
 .rodape {
-    background: linear-gradient(#0ca750, #2bb656, #59cb59);
+    background-color:#058ED8;
     font-size: 35px;
     text-align: center;
     padding: 30px;
 }
-
 .cats-footer {
     width: 150px;
 }
-
 .frase-footer {
     padding: 5px;
 }
-
 .frase-footer::before {
     content: "😸";
 }
-
 .frase-footer:after {
     content: "😸";
 }
+
 
 /*CSS FOTOS*/
 
